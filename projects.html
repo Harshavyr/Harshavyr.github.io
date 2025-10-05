@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Y Harsha Vardhana Reddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <div class="container">
+            <header class="page-header">
+                <h1>My Projects</h1>
+                <p class="tagline">You are Viewing my Projects Page</p>
+                <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            </header>
+
+            <main>
+                <section class="section">
+                    <h2>Major Projects</h2>
+                    <div class="project-grid">
+                        
+                        <article class="project-card">
+                            <h3>Large Language Models for Rare Disease Concept Normalization</h3>
+                            <p>
+                                Built a phenotype normalization model using GPT embeddings to map HPO terms into a vector database. 
+                                Normalizes phenotypes by applying NER to extract phenotypes from clinical text, then uses a sentence transformer 
+                                and FAISS for similarity search, enabling accurate retrieval of the closest HPO IDs for the identified phenotypic terms.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> GPT, NER, FAISS, Sentence Transformers, Python
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>BIOMed_NER: Named Entity Recognition for Biomedical Entities</h3>
+                            <p>
+                                Developed a Named Entity Recognition (NER) model using DeBERTaV3 base to tag 41 biomedical entities. 
+                                Utilized the MACCROBAT2020 dataset with 400 clinical notes, split 80% for training and 20% for validation, 
+                                to accurately tag biomedical terms in clinical text. Published the model on Hugging Face as BIOMed_NER.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> DeBERTaV3, MACCROBAT2020, Hugging Face, Python
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Deep Convolutional and Wasserstein GANs for High-Quality Animal Image Synthesis</h3>
+                            <p>
+                                Implemented both DCGAN and WGAN from scratch using PyTorch on an Animal Image Dataset containing 90 classes. 
+                                Trained the models to generate realistic animal images, with WGAN providing enhanced stability and quality in 
+                                generated samples through improved loss optimization.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> PyTorch, DCGAN, WGAN, Deep Learning, Python
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Efficient GPT-2 Implementation for Text Auto-Completion Tasks</h3>
+                            <p>
+                                Implemented and trained a GPT-2 model from scratch using PyTorch on the FineWeb-Edu dataset of 10 billion tokens. 
+                                Validated the model using the HellaSwag dataset, achieving an accuracy of 31.33%. 
+                                Utilized Distributed Data-Parallel (DDP) to efficiently leverage 2 RTX A6000 GPUs (48GB each) for training.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> GPT-2, PyTorch, DDP, Multi-GPU Training, Python
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Machine Translation using Transformers</h3>
+                            <p>
+                                Developed a Transformer model from scratch using PyTorch for machine translation. 
+                                Processed 300,000 English-Kannada translation samples and evaluated model performance using BLEU score.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> Transformers, PyTorch, BLEU Score, NLP, Python
+                            </p>
+                        </article>
+
+                    </div>
+
+                    <h2>Mini-Projects</h2>
+                    <div class="project-grid">
+                        
+                        <article class="project-card">
+                            <h3>Classification Models</h3>
+                            <p>
+                                Implemented logistic regression and K-Nearest Neighbors (KNN) for binary and multi-class classification tasks using Python.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> Python, Logistic Regression, KNN, scikit-learn
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Algorithms from Scratch</h3>
+                            <p>
+                                Implemented Decision Tree, PCA, and K-Means clustering algorithms using Python from scratch.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> Python, Decision Tree, PCA, K-Means
+                            </p>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Neural Networks</h3>
+                            <p>
+                                Implemented Multi-Layer Perceptron (MLP) and Convolutional Neural Networks (CNN) from scratch using Python 
+                                and tested them on MNIST and CIFAR-10 dataset.
+                            </p>
+                            <p class="technologies">
+                                <strong>Technologies:</strong> Python, MLP, CNN, MNIST, CIFAR-10
+                            </p>
+                        </article>
+
+                    </div>
+                </section>
+
+                <nav class="button-nav">
+                    <a href="index.html" class="btn">Back to Home</a>
+                    <a href="Resume.pdf" class="btn" download>Download Resume</a>
+                    <a href="Data science visualisation.html" class="btn">View Visualizations</a>
+                </nav>
+            </main>
+
+            <footer class="footer">
+                <p>&copy; 2025 Harsha Vardhana Reddy. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
